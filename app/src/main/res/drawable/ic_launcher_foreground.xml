@@ -1,0 +1,12 @@
+<!-- res/mipmap/ic_launcher_foreground.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background -->
+    <item android:drawable="@drawable/ic_launcher_background" />
+
+    <!-- Foreground (Mario game photo) -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/photo" />
+    </item>
+</layer-list>
